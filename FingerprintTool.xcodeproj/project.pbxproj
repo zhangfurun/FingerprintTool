@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1516B2ED2133A6F500F2F06D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1516B2EC2133A6F500F2F06D /* AppDelegate.m */; };
+		1516B2F02133A6F500F2F06D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1516B2EF2133A6F500F2F06D /* ViewController.m */; };
+		1516B2F32133A6F500F2F06D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1516B2F12133A6F500F2F06D /* Main.storyboard */; };
+		1516B2F52133A6F500F2F06D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1516B2F42133A6F500F2F06D /* Assets.xcassets */; };
+		1516B2F82133A6F500F2F06D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1516B2F62133A6F500F2F06D /* LaunchScreen.storyboard */; };
+		1516B2FB2133A6F500F2F06D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1516B2FA2133A6F500F2F06D /* main.m */; };
+		1516B3052133A6F500F2F06D /* FingerprintToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1516B3042133A6F500F2F06D /* FingerprintToolTests.m */; };
+		1516B3102133A6F500F2F06D /* FingerprintToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1516B30F2133A6F500F2F06D /* FingerprintToolUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1516B3012133A6F500F2F06D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1516B2E02133A6F500F2F06D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1516B2E72133A6F500F2F06D;
+			remoteInfo = FingerprintTool;
+		};
+		1516B30C2133A6F500F2F06D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1516B2E02133A6F500F2F06D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1516B2E72133A6F500F2F06D;
+			remoteInfo = FingerprintTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1516B2E82133A6F500F2F06D /* FingerprintTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingerprintTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1516B2EB2133A6F500F2F06D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1516B2EC2133A6F500F2F06D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1516B2EE2133A6F500F2F06D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1516B2EF2133A6F500F2F06D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1516B2F22133A6F500F2F06D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1516B2F42133A6F500F2F06D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1516B2F72133A6F500F2F06D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1516B2F92133A6F500F2F06D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1516B2FA2133A6F500F2F06D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1516B3002133A6F500F2F06D /* FingerprintToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerprintToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1516B3042133A6F500F2F06D /* FingerprintToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerprintToolTests.m; sourceTree = "<group>"; };
+		1516B3062133A6F500F2F06D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1516B30B2133A6F500F2F06D /* FingerprintToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerprintToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1516B30F2133A6F500F2F06D /* FingerprintToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerprintToolUITests.m; sourceTree = "<group>"; };
+		1516B3112133A6F500F2F06D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1516B2E52133A6F500F2F06D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1516B2FD2133A6F500F2F06D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1516B3082133A6F500F2F06D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1516B2DF2133A6F500F2F06D = {
+			isa = PBXGroup;
+			children = (
+				1516B2EA2133A6F500F2F06D /* FingerprintTool */,
+				1516B3032133A6F500F2F06D /* FingerprintToolTests */,
+				1516B30E2133A6F500F2F06D /* FingerprintToolUITests */,
+				1516B2E92133A6F500F2F06D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1516B2E92133A6F500F2F06D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1516B2E82133A6F500F2F06D /* FingerprintTool.app */,
+				1516B3002133A6F500F2F06D /* FingerprintToolTests.xctest */,
+				1516B30B2133A6F500F2F06D /* FingerprintToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1516B2EA2133A6F500F2F06D /* FingerprintTool */ = {
+			isa = PBXGroup;
+			children = (
+				1516B2EB2133A6F500F2F06D /* AppDelegate.h */,
+				1516B2EC2133A6F500F2F06D /* AppDelegate.m */,
+				1516B2EE2133A6F500F2F06D /* ViewController.h */,
+				1516B2EF2133A6F500F2F06D /* ViewController.m */,
+				1516B2F12133A6F500F2F06D /* Main.storyboard */,
+				1516B2F42133A6F500F2F06D /* Assets.xcassets */,
+				1516B2F62133A6F500F2F06D /* LaunchScreen.storyboard */,
+				1516B2F92133A6F500F2F06D /* Info.plist */,
+				1516B2FA2133A6F500F2F06D /* main.m */,
+			);
+			path = FingerprintTool;
+			sourceTree = "<group>";
+		};
+		1516B3032133A6F500F2F06D /* FingerprintToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				1516B3042133A6F500F2F06D /* FingerprintToolTests.m */,
+				1516B3062133A6F500F2F06D /* Info.plist */,
+			);
+			path = FingerprintToolTests;
+			sourceTree = "<group>";
+		};
+		1516B30E2133A6F500F2F06D /* FingerprintToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1516B30F2133A6F500F2F06D /* FingerprintToolUITests.m */,
+				1516B3112133A6F500F2F06D /* Info.plist */,
+			);
+			path = FingerprintToolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1516B2E72133A6F500F2F06D /* FingerprintTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1516B3142133A6F500F2F06D /* Build configuration list for PBXNativeTarget "FingerprintTool" */;
+			buildPhases = (
+				1516B2E42133A6F500F2F06D /* Sources */,
+				1516B2E52133A6F500F2F06D /* Frameworks */,
+				1516B2E62133A6F500F2F06D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FingerprintTool;
+			productName = FingerprintTool;
+			productReference = 1516B2E82133A6F500F2F06D /* FingerprintTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1516B2FF2133A6F500F2F06D /* FingerprintToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1516B3172133A6F500F2F06D /* Build configuration list for PBXNativeTarget "FingerprintToolTests" */;
+			buildPhases = (
+				1516B2FC2133A6F500F2F06D /* Sources */,
+				1516B2FD2133A6F500F2F06D /* Frameworks */,
+				1516B2FE2133A6F500F2F06D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1516B3022133A6F500F2F06D /* PBXTargetDependency */,
+			);
+			name = FingerprintToolTests;
+			productName = FingerprintToolTests;
+			productReference = 1516B3002133A6F500F2F06D /* FingerprintToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1516B30A2133A6F500F2F06D /* FingerprintToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1516B31A2133A6F500F2F06D /* Build configuration list for PBXNativeTarget "FingerprintToolUITests" */;
+			buildPhases = (
+				1516B3072133A6F500F2F06D /* Sources */,
+				1516B3082133A6F500F2F06D /* Frameworks */,
+				1516B3092133A6F500F2F06D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1516B30D2133A6F500F2F06D /* PBXTargetDependency */,
+			);
+			name = FingerprintToolUITests;
+			productName = FingerprintToolUITests;
+			productReference = 1516B30B2133A6F500F2F06D /* FingerprintToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1516B2E02133A6F500F2F06D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ifenghui;
+				TargetAttributes = {
+					1516B2E72133A6F500F2F06D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1516B2FF2133A6F500F2F06D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1516B2E72133A6F500F2F06D;
+					};
+					1516B30A2133A6F500F2F06D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1516B2E72133A6F500F2F06D;
+					};
+				};
+			};
+			buildConfigurationList = 1516B2E32133A6F500F2F06D /* Build configuration list for PBXProject "FingerprintTool" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1516B2DF2133A6F500F2F06D;
+			productRefGroup = 1516B2E92133A6F500F2F06D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1516B2E72133A6F500F2F06D /* FingerprintTool */,
+				1516B2FF2133A6F500F2F06D /* FingerprintToolTests */,
+				1516B30A2133A6F500F2F06D /* FingerprintToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1516B2E62133A6F500F2F06D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1516B2F82133A6F500F2F06D /* LaunchScreen.storyboard in Resources */,
+				1516B2F52133A6F500F2F06D /* Assets.xcassets in Resources */,
+				1516B2F32133A6F500F2F06D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1516B2FE2133A6F500F2F06D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1516B3092133A6F500F2F06D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1516B2E42133A6F500F2F06D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1516B2F02133A6F500F2F06D /* ViewController.m in Sources */,
+				1516B2FB2133A6F500F2F06D /* main.m in Sources */,
+				1516B2ED2133A6F500F2F06D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1516B2FC2133A6F500F2F06D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1516B3052133A6F500F2F06D /* FingerprintToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1516B3072133A6F500F2F06D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1516B3102133A6F500F2F06D /* FingerprintToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1516B3022133A6F500F2F06D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1516B2E72133A6F500F2F06D /* FingerprintTool */;
+			targetProxy = 1516B3012133A6F500F2F06D /* PBXContainerItemProxy */;
+		};
+		1516B30D2133A6F500F2F06D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1516B2E72133A6F500F2F06D /* FingerprintTool */;
+			targetProxy = 1516B30C2133A6F500F2F06D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1516B2F12133A6F500F2F06D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1516B2F22133A6F500F2F06D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1516B2F62133A6F500F2F06D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1516B2F72133A6F500F2F06D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1516B3122133A6F500F2F06D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1516B3132133A6F500F2F06D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1516B3152133A6F500F2F06D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C592BC3464;
+				INFOPLIST_FILE = FingerprintTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangfurun.FingerprintTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1516B3162133A6F500F2F06D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C592BC3464;
+				INFOPLIST_FILE = FingerprintTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangfurun.FingerprintTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1516B3182133A6F500F2F06D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C592BC3464;
+				INFOPLIST_FILE = FingerprintToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangfurun.FingerprintToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FingerprintTool.app/FingerprintTool";
+			};
+			name = Debug;
+		};
+		1516B3192133A6F500F2F06D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C592BC3464;
+				INFOPLIST_FILE = FingerprintToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangfurun.FingerprintToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FingerprintTool.app/FingerprintTool";
+			};
+			name = Release;
+		};
+		1516B31B2133A6F500F2F06D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C592BC3464;
+				INFOPLIST_FILE = FingerprintToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangfurun.FingerprintToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FingerprintTool;
+			};
+			name = Debug;
+		};
+		1516B31C2133A6F500F2F06D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C592BC3464;
+				INFOPLIST_FILE = FingerprintToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangfurun.FingerprintToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FingerprintTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1516B2E32133A6F500F2F06D /* Build configuration list for PBXProject "FingerprintTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1516B3122133A6F500F2F06D /* Debug */,
+				1516B3132133A6F500F2F06D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1516B3142133A6F500F2F06D /* Build configuration list for PBXNativeTarget "FingerprintTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1516B3152133A6F500F2F06D /* Debug */,
+				1516B3162133A6F500F2F06D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1516B3172133A6F500F2F06D /* Build configuration list for PBXNativeTarget "FingerprintToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1516B3182133A6F500F2F06D /* Debug */,
+				1516B3192133A6F500F2F06D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1516B31A2133A6F500F2F06D /* Build configuration list for PBXNativeTarget "FingerprintToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1516B31B2133A6F500F2F06D /* Debug */,
+				1516B31C2133A6F500F2F06D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1516B2E02133A6F500F2F06D /* Project object */;
+}

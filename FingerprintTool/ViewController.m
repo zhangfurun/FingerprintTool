@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "FingerprintTool.h"
+
 @interface ViewController ()
 
 @end
@@ -16,9 +18,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)a:(id)sender {
+    [FingerprintTool fingerprintVerification:^(BOOL isSuccess, NSString *resultString) {
+       
+    }];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

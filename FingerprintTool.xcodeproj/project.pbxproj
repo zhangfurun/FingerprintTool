@@ -15,6 +15,7 @@
 		1516B2FB2133A6F500F2F06D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1516B2FA2133A6F500F2F06D /* main.m */; };
 		1516B3052133A6F500F2F06D /* FingerprintToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1516B3042133A6F500F2F06D /* FingerprintToolTests.m */; };
 		1516B3102133A6F500F2F06D /* FingerprintToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1516B30F2133A6F500F2F06D /* FingerprintToolUITests.m */; };
+		1516B31F2133A70200F2F06D /* FingerprintTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1516B31E2133A70200F2F06D /* FingerprintTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1516B30B2133A6F500F2F06D /* FingerprintToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerprintToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1516B30F2133A6F500F2F06D /* FingerprintToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerprintToolUITests.m; sourceTree = "<group>"; };
 		1516B3112133A6F500F2F06D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1516B31D2133A70200F2F06D /* FingerprintTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FingerprintTool.h; sourceTree = "<group>"; };
+		1516B31E2133A70200F2F06D /* FingerprintTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerprintTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				1516B2EC2133A6F500F2F06D /* AppDelegate.m */,
 				1516B2EE2133A6F500F2F06D /* ViewController.h */,
 				1516B2EF2133A6F500F2F06D /* ViewController.m */,
+				1516B31D2133A70200F2F06D /* FingerprintTool.h */,
+				1516B31E2133A70200F2F06D /* FingerprintTool.m */,
 				1516B2F12133A6F500F2F06D /* Main.storyboard */,
 				1516B2F42133A6F500F2F06D /* Assets.xcassets */,
 				1516B2F62133A6F500F2F06D /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			files = (
 				1516B2F02133A6F500F2F06D /* ViewController.m in Sources */,
 				1516B2FB2133A6F500F2F06D /* main.m in Sources */,
+				1516B31F2133A70200F2F06D /* FingerprintTool.m in Sources */,
 				1516B2ED2133A6F500F2F06D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +439,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C592BC3464;
 				INFOPLIST_FILE = FingerprintTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhangfurun.FingerprintTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,6 +454,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C592BC3464;
 				INFOPLIST_FILE = FingerprintTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhangfurun.FingerprintTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";

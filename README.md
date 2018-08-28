@@ -1,7 +1,5 @@
-# FingerprintTool
+# FingerprintTool 指纹解锁
 
-指纹解锁
-===
 支持
 ---
 - 自定义请求解锁原因

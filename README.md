@@ -1,7 +1,7 @@
 # FingerprintTool
-<p align = "center">
-<font name = "", color = "orange", size = "72">指纹解锁</font>
-</p>
+
+<font name = "黑体", color = "orange", size = "72">指纹解锁</font>
+
 
 <font name = "黑体", color = "#d4d4d4", size = "5">支持</font>
 - 自定义请求解锁原因

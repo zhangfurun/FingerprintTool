@@ -69,8 +69,8 @@
     LAContext *context = [LAContext new];
     NSError *error = NULL;
     __weak typeof(self) WS = self;
-    if ([context canEvaluatePolicy:LAPolicyDeviceOwnerAuthenticationWithBiometrics error:&error]) {
-        [context evaluatePolicy:LAPolicyDeviceOwnerAuthenticationWithBiometrics
+    if ([context canEvaluatePolicy:policy error:&error]) {
+        [context evaluatePolicy:policy
                 localizedReason:localizedReason
                           reply:^(BOOL success, NSError * _Nullable error) {
                               if (resultBlock) {
